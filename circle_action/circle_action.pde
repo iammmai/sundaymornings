@@ -17,7 +17,7 @@ void draw() {
   //c1.orbit(width/2, height/2);
   c2.orbit(c1.newX, c1.newY, 200, 120, 500.0f);
   c3.orbit(c2.xpos, c2.ypos, 200, 230, 400.0f);
-  c2.orbitDraw(c3.xpos, c3.ypos, 300, 60, 900.0f);
+
 }
 
 class circle {
@@ -73,4 +73,3 @@ class circle {
   }
   
   }
-}
